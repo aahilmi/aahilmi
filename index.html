@@ -1,20 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>My Wiki & Download Center</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aahilmi Wiki & Pusat Informasi</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f8f9fa; color: #333; }
+        .navbar { background-color: #24292e; padding: 15px; color: white; text-align: center; font-size: 20px; font-weight: bold; }
+        .container { max-width: 800px; margin: 40px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1 { color: #0366d6; }
+        .wiki-section { border-left: 4px solid #0366d6; padding-left: 15px; margin: 20px 0; }
+        .btn-download { display: inline-block; background-color: #28a745; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 20px; transition: 0.2s; }
+        .btn-download:hover { background-color: #218838; }
+    </style>
 </head>
 <body>
-  <div id="app">Loading...</div>
-  <script>
-    window.$docsify = {
-      name: 'Wiki Download',
-      repo: 'https://github.com',
-      loadSidebar: true
-    }
-  </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+    <div class="navbar">🌐 AAHILMI WIKI CENTER</div>
+
+    <div class="container">
+        <h1>Selamat Datang di Halaman Wiki</h1>
+        <p>Ini adalah pusat informasi, panduan teknis, dan dokumentasi resmi project kami.</p>
+        
+        <div class="wiki-section">
+            <h3>📑 Panduan Penggunaan</h3>
+            <p>Gunakan sistem informasi ini dengan bijak. Untuk mengakses file unduhan, pembaruan software, dan berkas penting lainnya, Anda memerlukan akses khusus demi keamanan data.</p>
+        </div>
+
+        <div class="wiki-section">
+            <h3>🔒 Area Unduhan Terproteksi</h3>
+            <p>Untuk mengunduh berkas, silakan masuk ke portal unduhan aman melalui tombol di bawah ini menggunakan kata sandi yang telah diberikan oleh admin.</p>
+        </div>
+
+        <!-- Tombol ini mengarah ke halaman enkripsi download.html -->
+        <a href="download.html" class="btn-download">🔒 Masuk ke Area Download</a>
+    </div>
+
 </body>
 </html>
